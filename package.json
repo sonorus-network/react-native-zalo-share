@@ -1,7 +1,7 @@
 {
   "name": "react-native-zalo-share",
   "title": "React Native Zalo Share",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "share message, share feed zalo in app",
   "main": "index.js",
   "scripts": {
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nhjuhoang/react-native-zalo-share.git",
-    "baseUrl": "https://github.com/nhjuhoang/react-native-zalo-share"
+    "url": "git+https://github.com/sonorus-network/react-native-zalo-share.git",
+    "baseUrl": "https://github.com/sonorus-network/react-native-zalo-share"
   },
   "keywords": [
     "react-native",
     "zalo share",
     "share"
   ],
-  "author": "nhjuhoang",
+  "author": "sonorus",
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "peerDependencies": {
-    "react": "^16.8.1",
+    "react": "^18.1.0",
     "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "devDependencies": {
@@ -29,10 +29,7 @@
     "react-native": "^0.61.5"
   },
   "bugs": {
-    "url": "https://github.com/nhjuhoang/react-native-zalo-share/issues"
+    "url": "https://github.com/sonorus-network/react-native-zalo-share/issues"
   },
-  "homepage": "https://github.com/nhjuhoang/react-native-zalo-share#readme",
-  "directories": {
-    "example": "example"
-  }
+  "homepage": "https://github.com/sonorus-network/react-native-zalo-share#readme"
 }
