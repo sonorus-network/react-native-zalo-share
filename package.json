@@ -3,9 +3,14 @@
   "title": "React Native Zalo Share",
   "version": "1.0.0",
   "description": "share message, share feed zalo in app",
-  "main": "index.js",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf lib",
+    "compile": "tsc -d"
   },
   "repository": {
     "type": "git",
@@ -22,11 +27,12 @@
   "licenseFilename": "LICENSE",
   "peerDependencies": {
     "react": "^18.1.0",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+    "react-native": ">0.70.0"
   },
   "devDependencies": {
     "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react-native": "^0.61.5",
+    "typescript": "^4.9.5"
   },
   "bugs": {
     "url": "https://github.com/sonorus-network/react-native-zalo-share/issues"

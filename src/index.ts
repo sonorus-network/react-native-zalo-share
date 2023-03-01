@@ -1,10 +1,10 @@
 // @flow
 
-import { NativeModules, requireNativeComponent, NativeEventEmitter } from 'react-native';
+import { NativeModules } from 'react-native';
 
 const { ZaloShare } = NativeModules;
 
-type configType = {
+interface configType {
   msg: string,
   link: string,
   linkTitle: string,
@@ -13,15 +13,10 @@ type configType = {
   appName?: string, // app name back ios app when cancel share
 }
 
-const shareMessage = async (config: configType) => {
+export const shareMessage = async (config: configType) => {
   await ZaloShare.shareMessage(config)
 }
 
-const shareFeed = async (config: configType) => {
+export const shareFeed = async (config: configType) => {
   await ZaloShare.shareFeed(config)
 }
-
-export default {
-  shareMessage,
-  shareFeed,
-};
