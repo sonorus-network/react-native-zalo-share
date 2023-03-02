@@ -25,7 +25,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'com.facebook.react:react-native:+'
-    implementation "com.zing.zalo.zalosdk:core:2.4.2802.3"
-    implementation "com.zing.zalo.zalosdk:auth:2.4.2802.3"
-    implementation "com.zing.zalo.zalosdk:openapi:2.4.2802.3"
+    implementation "me.zalo:sdk-core:+"
+    implementation "me.zalo:sdk-auth:+"
+    implementation "me.zalo:sdk-openapi:+"
 }
